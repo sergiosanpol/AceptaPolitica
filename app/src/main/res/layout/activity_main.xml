@@ -25,6 +25,20 @@
         android:ems="10"
         android:inputType="textPersonName" />
 
+    <TextView
+        android:id="@+id/edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edad"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="3"
+        android:inputType="number" />
+
     <Button
         android:id="@+id/verifica"
         android:layout_width="wrap_content"
