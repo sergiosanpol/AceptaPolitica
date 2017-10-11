@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hlc.diurno.aceptapolitica.Verifica">
+
+    <TextView
+        android:id="@+id/saludo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/acepto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enviarResultado"
+        android:text="@string/acepto" />
+
+    <Button
+        android:id="@+id/rechazo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enviarResultado"
+        android:text="@string/rechazo" />
+</LinearLayout>

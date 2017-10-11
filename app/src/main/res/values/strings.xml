@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AceptaPolitica</string>
+    <string name="tu_nombre">Tu nombre</string>
+    <string name="verifica">Verifica</string>
+    <string name="resultado">Resultado:</string>
+    <string name="acepto">Acepto</string>
+    <string name="rechazo">Rechazo</string>
+</resources>
